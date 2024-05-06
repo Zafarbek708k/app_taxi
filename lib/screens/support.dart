@@ -10,6 +10,8 @@ class Support extends StatefulWidget {
 class _SupportState extends State<Support> {
   @override
   Widget build(BuildContext context) {
-    return const Center();
+    return const Center(
+      child: Text("Support", style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w700),),
+    );
   }
 }

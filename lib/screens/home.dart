@@ -56,6 +56,7 @@ class _HomeState extends State<Home> {
             ),
             SizedBox(height: height * 0.01),
             customCard(
+              onPressed: (){},
                 image: "assets/images/uz_card.png",
                 cardNumber: "4455 **** **** 6336"),
             SizedBox(height: height * 0.01),
